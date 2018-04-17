@@ -9,10 +9,10 @@ LOCAL_CFLAGS += -D__ANDROID__ -D__DEBUG__ -g
 
 LOCAL_C_INCLUDES	:=	\
     $(LOCAL_PATH)/                          \
-	$(LOCAL_PATH)/../libGPU/base 			\
-	$(LOCAL_PATH)/../libGPU/base/android 	\
-	$(LOCAL_PATH)/../libGPU/filter 		\
-	$(LOCAL_PATH)/../libGPU/bs
+	$(LOCAL_PATH)/../libGPU/src/base 			\
+	$(LOCAL_PATH)/../libGPU/src/base/android 	\
+	$(LOCAL_PATH)/../libGPU/src/filter 		\
+	$(LOCAL_PATH)/../libGPU/src/bs
 
 SRCFILES = $(wildcard $(LOCAL_PATH)/*.cpp $(LOCAL_PATH)/*/*.cpp)
 SRCS = $(patsubst $(LOCAL_PATH)/%, ./%,$(SRCFILES)) 

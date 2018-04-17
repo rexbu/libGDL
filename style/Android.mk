@@ -4,10 +4,10 @@ include $(CLEAR_VARS)
 LOCAL_CFLAGS += -D__ANDROID__ -D__DEBUG__ -g
 
 LOCAL_C_INCLUDES	:=	\
-	$(LOCAL_PATH)/../libGPU/base            \
-	$(LOCAL_PATH)/../libGPU/base/android 	\
-	$(LOCAL_PATH)/../libGPU/filter 		    \
-	$(LOCAL_PATH)/../libGPU/bs              \
+	$(LOCAL_PATH)/../libGPU/src/base            \
+	$(LOCAL_PATH)/../libGPU/src/base/android 	\
+	$(LOCAL_PATH)/../libGPU/src/filter 		    \
+	$(LOCAL_PATH)/../libGPU/src/bs              \
 	$(LOCAL_PATH)/../src
 
 SRCFILES = $(wildcard $(LOCAL_PATH)/*.cpp $(LOCAL_PATH)/*/*.cpp)
