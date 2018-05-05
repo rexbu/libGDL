@@ -6,11 +6,12 @@
 * 有兴趣的开发者或者想沟通的欢迎联系我
 
 ![微信](./image/wechat.jpeg)
+* 代码框架说明文档见wiki：_https://github.com/rexbu/libGDL/wiki/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3_
 
 ## libGDL特点
 * 纯C++代码，没有依赖任何的第三方库，非常方便移植和编译。基于的libGPU是本人开发的一个C++版本的GPUImage
 * 基于opengles 3.0实现，所以理论上libGDL可以应用于iphone5s及android 4.4之后的所有手机上
-* 卷积层使用opengles的fbo渲染实现，全连接层基于neon优化
+* 卷积层使用opengles的fbo渲染实现，全连接层基于neon优化，卷积层和全连接之间的数据传输通过pbo实现
 * 卷积层和全连接层为并行计算
 
 ## TODO
