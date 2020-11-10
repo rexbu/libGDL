@@ -5,7 +5,6 @@
 * 本项目为个人开发，条件限制待解决的问题还非常多(见下面TODO)。
 * 有兴趣的开发者或者想沟通的欢迎联系我
 
-![微信](./image/wechat.jpeg)
 * 代码框架说明文档见wiki：_https://github.com/rexbu/libGDL/wiki/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3_
 
 ## libGDL特点
